@@ -1,9 +1,10 @@
 my_dict = {'Kiril': 1995, 'Sasha': 2000}
 print(my_dict)
 print(my_dict['Kiril'])
+print(my_dict.get('Denis'))
 my_dict['Vanya'] = 2007
 my_dict['Alex'] = 2005
-del my_dict['Alex']
+print(my_dict.pop('Alex'))
 print(my_dict)
 my_set = {1, 2, 'String', False, 1, 2, False, 'String'}
 print(my_set)
